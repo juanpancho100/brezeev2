@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ExpedienteController;
-use App\Models\Expediente;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,5 +20,8 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+Route::get('/registro', function () {
+    return view('registro');
+})->middleware(['auth'])->name('registro');
 
 require __DIR__.'/auth.php';
