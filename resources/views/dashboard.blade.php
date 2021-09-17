@@ -10,7 +10,8 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     <table class="table table-dark table-striped mt-4">
-                        <thead>
+                    <a href="/registro" class="">Crear</a>    
+                    <thead>
                         <tr>
                             <th scope="col" class="">ID</th>
                             <th scope="col" class="">Producto</th>
