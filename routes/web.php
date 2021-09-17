@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ExpedienteController;
+use App\Models\Expediente;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
